@@ -35,7 +35,7 @@ class MyFeed():
         fromaddr = 'pysauce@gmail.com'
         server = smtplib.SMTP('smtp.gmail.com',587)
         server.starttls()
-        server.login("pysauce@gmail.com", "mailbotyoungdaisy")
+        server.login("pysauce@gmail.com", "xx")
         server.sendmail(fromaddr, toaddrs, mg1)
         server.quit()
         print("Message Sent")
