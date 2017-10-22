@@ -44,7 +44,7 @@ class MyFeed():
 
 def main():
     feed =  MyFeed()
-    schedule.every().day.at("16:26").do(feed.quotes)
+    schedule.every().day.at("13:36").do(feed.quotes)
     while True:
         schedule.run_pending()
         time.sleep(1)
